@@ -75,7 +75,7 @@ class App extends Component {
               <div><Container>
                 <br></br>
                 <div class=".doc-container">
-                  <object data="https://drive.google.com/file/d/10QlMV2SV0q9PIKoGvSxmljm07SLYzGoI/preview" type="application/pdf" width="100%" height="750px"></object>
+                  <object data="https://drive.google.com/file/d/1pFVmTsUtscyBG9ZS0s7SQRIAdILuJbPD/preview" type="application/pdf" width="100%" height="750px"></object>
                 </div>
               </Container>
               <br></br></div>
