@@ -37,10 +37,11 @@ export default class Menubar extends React.Component {
           >
             <NavbarMenu isActive="true">
               <NavbarStart>
-                <NavbarItem href="search">Search</NavbarItem>
+                <NavbarItem href="./">Home</NavbarItem>
+                <NavbarItem href="resume">Resume</NavbarItem>
               </NavbarStart>
               <NavbarEnd>
-
+                
               </NavbarEnd>
             </NavbarMenu>
           </Navbar>
