@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import 'bulma/css/bulma.css';
-import { Document, Page, pdfjs } from 'react-pdf';
 import {
   Container,
   Columns,
@@ -11,10 +10,11 @@ import {
   Icon
 } from "bloomer";
 import Menubar from './components/Menubar';
+import Homepage from './components/Homepage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -52,8 +52,6 @@ class App extends Component {
   }
 
   render() {
-    const resumeframe = "<iframe src='https://docs.google.com/document/d/e/2PACX-1vT9g8ltEAfkQsUR5FpzqVf-SMxNhNiwjYv8Tdk2gyZ1od3GFDzPVUFx8lIqazqn4w/pub?embedded=true'></iframe>";
-    const { pageNumber, numPages } = this.state;
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
@@ -63,7 +61,8 @@ class App extends Component {
             exact strict
             render={props => (
               <div><Container>
-                
+                <br></br>
+                <Homepage></Homepage>
               </Container>
               <br></br></div>
             )}

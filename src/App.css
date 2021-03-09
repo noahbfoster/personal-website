@@ -32,6 +32,11 @@
   overflow: hidden;
 }
 
+.borderedImage {
+  border-width: 5px;
+  border-color: black;
+}
+
 .doc-container iframe {
   position: absolute;
   top: 0;

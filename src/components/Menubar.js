@@ -4,8 +4,11 @@ import {
   Navbar,
   NavbarItem,
   NavbarMenu,
+  NavbarBrand,
+  NavbarBurger,
   NavbarStart,
   NavbarEnd,
+  Icon,
   HeroFooter,
   Hero,
   HeroBody,
@@ -22,10 +25,10 @@ export default class Menubar extends React.Component {
   render() {
 
     return (
-      <Hero isColor="info" isSize="1/4">
+      <Hero isColor="dark" isSize="1/4">
         <HeroBody>
-          <Container hasTextAlign="left">
-            <Title>Personal Website Testing.</Title>
+          <Container hasTextAlign="center">
+            <Title>Noah Foster</Title>
           </Container>
         </HeroBody>
         <HeroFooter>
@@ -42,6 +45,9 @@ export default class Menubar extends React.Component {
               </NavbarStart>
               <NavbarEnd>
                 
+                <NavbarItem href="https://github.com/noahbfoster" target="_blank">
+                  My GitHub
+                </NavbarItem>
               </NavbarEnd>
             </NavbarMenu>
           </Navbar>
